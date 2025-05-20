@@ -1,50 +1,44 @@
-# 📝 TEXT-SUMMARIZATION-TOOL
+# 🎙️ Speech Recognition System
 
-**👨‍💼 Company**: CODTECH IT SOLUTIONS  
-**👤 Name**: Gajula Harini  
-**🆔 Intern ID**: CODF75  
-**📚 Domain**: Artificial Intelligence Markup Language  
-**⏱️ Duration**: 4 Weeks  
-**👨‍🏫 Mentor**: Neela Santosh Kumar  
+### 👤 Name: Gajula Harini  
+### 🆔 Intern ID: CODF75  
+### 👨‍💼 Company: CODTECH IT SOLUTIONS  
+### 📚 Domain: Artificial Intelligence and Machine Learning  
+### ⏱️ Duration: 4 Weeks  
+### 👨‍🏫 Mentor: Neela Santosh Kumar  
 
-## 📝 Description
+---
 
-A Python-based command-line NLP application designed to summarize large blocks of text using both **extractive** and **abstractive** methods.
+## 📝 Project Description
+
+This project is a simple Python-based **Speech Recognition System** that converts spoken audio into text using a microphone. It provides a command-line interface where users can speak through their microphone, and the recognized text is displayed as output.
+
+---
 
 ## 🚀 Features
 
-- Accepts manual text input via the terminal
-- Choose between:
-  - **Extractive summarization** using **Sumy**
-  - **Abstractive summarization** using **T5 model** from Hugging Face Transformers
-- Fully command-line based (no GUI)
+- Takes audio input from the microphone
+- Converts spoken words into text using speech recognition
+- Displays the recognized text on the terminal
+- Lightweight and easy to run
+- Ideal for beginners exploring speech-to-text conversion
+
+---
 
 ## 🛠️ Technologies & Libraries Used
 
-- Python
-- NLTK – for tokenization
-- Sumy – for extractive summarization
-- Transformers – for abstractive summarization (T5 model)
-- Torch – for deep learning backend
+- **Python** – Core programming language  
+- **SpeechRecognition** – For converting speech to text  
+- **PyAudio** – To capture audio from the microphone
+
+---
 
 ## ⚙️ Installation Steps
 
-1. **Open terminal** in your project folder  
-2. **Create and activate a virtual environment**:
+1. **Open your terminal in the project folder**
 
-    ```bash
-    python -m venv venv
-    .\venv\Scripts\activate  # for Windows
-    ```
-
-3. **Install dependencies**:
-
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-## ▶️ How to Run
+2. **Create and activate a virtual environment (optional but recommended):**
 
 ```bash
-python summarizer.py
-# speech-recognition-system
+python -m venv venv
+.\venv\Scripts\activate    # On Windows
